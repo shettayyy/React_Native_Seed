@@ -1,7 +1,15 @@
 module.exports = {
   root: true,
-  extends: ['@react-native-community', 'airbnb-typescript/base'],
+  extends: ['standard', '@react-native-community'],
   rules: {
+    'prefer-const': 2,
+    'no-var': 2,
+    'no-new-object': 2,
+    'object-shorthand': 2,
+    'no-useless-rename': 2,
+    'no-prototype-builtins': 2,
+    'no-array-constructor': 2,
+    semi: 0,
     'padding-line-between-statements': [
       'error',
       {blankLine: 'always', prev: '*', next: 'return'},
