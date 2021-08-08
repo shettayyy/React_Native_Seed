@@ -12,11 +12,11 @@ module.exports = {
     semi: 0,
     'padding-line-between-statements': [
       'error',
-      {blankLine: 'always', prev: '*', next: 'return'},
-      {blankLine: 'always', prev: '*', next: 'break'},
-      {blankLine: 'always', prev: '*', next: 'continue'},
-      {blankLine: 'always', prev: '*', next: 'function'},
-      {blankLine: 'always', prev: '*', next: 'block'},
+      { blankLine: 'always', prev: '*', next: 'return' },
+      { blankLine: 'always', prev: '*', next: 'break' },
+      { blankLine: 'always', prev: '*', next: 'continue' },
+      { blankLine: 'always', prev: '*', next: 'function' },
+      { blankLine: 'always', prev: '*', next: 'block' },
     ],
     'lines-around-comment': [
       2,
@@ -25,10 +25,10 @@ module.exports = {
       },
     ],
     'no-console': 1,
-    'no-use-before-define': [2, {functions: false}],
+    'no-use-before-define': [2, { functions: false }],
     'no-param-reassign': [
       'error',
-      {props: true, ignorePropertyModificationsFor: ['state']},
+      { props: true, ignorePropertyModificationsFor: ['state'] },
     ],
   },
 };
