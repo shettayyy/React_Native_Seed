@@ -17,7 +17,9 @@ import {
   View,
 } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { Provider } from 'react-redux';
 import StorybookUI from '../storybook';
+import store from './store';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -27,13 +29,15 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+    <Provider store={store}>
+      <SafeAreaView style={backgroundStyle}>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
 
-      <View>
-        <Text>Hello World</Text>
-      </View>
-    </SafeAreaView>
+        <View>
+          <Text>Hello World</Text>
+        </View>
+      </SafeAreaView>
+    </Provider>
   );
 };
 
