@@ -9,6 +9,7 @@ module.exports = {
     'no-useless-rename': 2,
     'no-prototype-builtins': 2,
     'no-array-constructor': 2,
+    'dot-notation': 0,
     semi: 0,
     'padding-line-between-statements': [
       'error',

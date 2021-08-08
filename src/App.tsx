@@ -17,6 +17,7 @@ import {
   View,
 } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import StorybookUI from '../storybook';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -36,4 +37,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default process.env.ENABLE_STORYBOOK === 'true' ? StorybookUI : App;
