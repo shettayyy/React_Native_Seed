@@ -1,0 +1,19 @@
+{
+  "strict": {
+    "text-font-family": "Montserrat-Light",
+
+    "text-heading-1-font-family": "Raleway-SemiBold",
+    "text-heading-2-font-family": "Raleway-SemiBold",
+    "text-heading-3-font-family": "Raleway-SemiBold",
+    "text-heading-4-font-family": "Montserrat-Medium",
+    "text-heading-5-font-family": "Montserrat-Medium",
+    "text-heading-6-font-family": "Montserrat-Medium",
+
+    "text-subtitle-1-font-family": "Montserrat-ExtraLight",
+    "text-subtitle-2-font-family": "Montserrat-ExtraLight",
+
+    "text-caption-1-font-family": "Montserrat-ExtraLight",
+    "text-caption-2-font-family": "Montserrat-ExtraLight"
+  },
+  "components": {}
+}

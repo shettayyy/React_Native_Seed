@@ -19,6 +19,7 @@ import {
   withStyles,
 } from '@ui-kitten/components';
 import theme from './theme/theme.json';
+import mapping from './theme/mapping.json';
 // import Counter from './pages/Counter/Counter';
 import Dogs from './pages/Dogs/Dogs';
 import store from './store';
@@ -44,7 +45,10 @@ const ThemedBaseApp = withStyles(BaseApp, (evaTheme: ThemeType) => ({
 const App = () => {
   return (
     <Provider store={store}>
-      <ApplicationProvider {...eva} theme={{ ...eva.dark, ...theme }}>
+      <ApplicationProvider
+        {...eva}
+        theme={{ ...eva.dark, ...theme }}
+        customMapping={mapping}>
         <ThemedBaseApp />
       </ApplicationProvider>
     </Provider>
