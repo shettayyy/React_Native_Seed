@@ -9,16 +9,11 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { SafeAreaView, StatusBar, useColorScheme } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { Provider } from 'react-redux';
-import StorybookUI from '../storybook';
+// import Counter from './pages/Counter/Counter';
+import Dogs from './pages/Dogs/Dogs';
 import store from './store';
 
 const App = () => {
@@ -33,12 +28,10 @@ const App = () => {
       <SafeAreaView style={backgroundStyle}>
         <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
 
-        <View>
-          <Text>Hello World</Text>
-        </View>
+        <Dogs />
       </SafeAreaView>
     </Provider>
   );
 };
 
-export default process.env.ENABLE_STORYBOOK === 'true' ? StorybookUI : App;
+export default App;
