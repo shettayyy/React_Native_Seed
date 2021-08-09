@@ -10,4 +10,10 @@ if (__DEV__) {
   import('./reactotron.config.js');
 }
 
-AppRegistry.registerComponent(appName, () => App);
+if (process.env.ENABLE_STORYBOOK === 'true') {
+  import('./storybook').then(StorybookUI =>
+    AppRegistry.registerComponent(appName, () => StorybookUI.default),
+  );
+} else {
+  AppRegistry.registerComponent(appName, () => App);
+}
