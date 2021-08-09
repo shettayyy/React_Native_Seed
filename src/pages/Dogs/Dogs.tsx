@@ -1,4 +1,4 @@
-import { Layout, Text } from '@ui-kitten/components';
+import { Icon, Layout, Text } from '@ui-kitten/components';
 import React from 'react';
 import { View } from 'react-native';
 import { useFetchBreedsQuery } from '../../feature/dogs/dogs_api_slice';
@@ -19,6 +19,10 @@ const Dogs = () => {
   return (
     <Layout>
       <Text>Number of dogs: {data.length}</Text>
+
+      <View>
+        <Icon name="bar-chart-2-outline" width={30} height={30} fill="red" />
+      </View>
 
       <View>
         {data.map(breed => (

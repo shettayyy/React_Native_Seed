@@ -14,10 +14,12 @@ import { Provider } from 'react-redux';
 import * as eva from '@eva-design/eva';
 import {
   ApplicationProvider,
+  IconRegistry,
   ThemedComponentProps,
   ThemeType,
   withStyles,
 } from '@ui-kitten/components';
+import { EvaIconsPack } from '@ui-kitten/eva-icons';
 import theme from './theme/theme.json';
 import mapping from './theme/mapping.json';
 // import Counter from './pages/Counter/Counter';
@@ -45,12 +47,15 @@ const ThemedBaseApp = withStyles(BaseApp, (evaTheme: ThemeType) => ({
 const App = () => {
   return (
     <Provider store={store}>
-      <ApplicationProvider
-        {...eva}
-        theme={{ ...eva.dark, ...theme }}
-        customMapping={mapping}>
-        <ThemedBaseApp />
-      </ApplicationProvider>
+      <>
+        <IconRegistry icons={EvaIconsPack} />
+        <ApplicationProvider
+          {...eva}
+          theme={{ ...eva.dark, ...theme }}
+          customMapping={mapping}>
+          <ThemedBaseApp />
+        </ApplicationProvider>
+      </>
     </Provider>
   );
 };
