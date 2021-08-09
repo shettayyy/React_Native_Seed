@@ -1,5 +1,6 @@
+import { Layout, Text } from '@ui-kitten/components';
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 import { useFetchBreedsQuery } from '../../feature/dogs/dogs_api_slice';
 
 const Dogs = () => {
@@ -16,7 +17,7 @@ const Dogs = () => {
   }
 
   return (
-    <View>
+    <Layout>
       <Text>Number of dogs: {data.length}</Text>
 
       <View>
@@ -26,7 +27,7 @@ const Dogs = () => {
           </View>
         ))}
       </View>
-    </View>
+    </Layout>
   );
 };
 
