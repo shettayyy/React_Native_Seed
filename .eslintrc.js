@@ -22,7 +22,8 @@ module.exports = {
     'lines-around-comment': [
       2,
       {
-        beforeBlockComment: true,
+        beforeLineComment: true,
+        allowBlockStart: true,
       },
     ],
     'no-console': 1,

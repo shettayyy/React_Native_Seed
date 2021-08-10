@@ -20,3 +20,7 @@ export interface NavProps {
     RouteNames.Dogs
   >;
 }
+
+export enum NAV_KEYS {
+  PERSISTENCE_KEY = 'NAVIGATION_STATE',
+}
