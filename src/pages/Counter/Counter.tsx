@@ -1,11 +1,11 @@
 import React from 'react';
-import { useAppSelector, useAppDispatch } from '../../store/hooks';
+import { useAppSelector, useAppDispatch } from '../../hooks/store';
 import {
   addCount,
   decrement,
   increment,
   reset,
-} from '../../feature/counter/counter_slice';
+} from '../../features/counter/counter_slice';
 import {
   Button,
   Card,

@@ -14,7 +14,7 @@ import {
 } from '@ui-kitten/components';
 import React from 'react';
 import { ListRenderItemInfo, View, ViewProps } from 'react-native';
-import { Breed, useFetchBreedsQuery } from '../../feature/dogs/dogs_api_slice';
+import { Breed, useFetchBreedsQuery } from '../../features/dogs/dogs_api_slice';
 import { NavProps, RouteNames } from '../../routes/nav_types';
 
 const themedStyles = StyleService.create({

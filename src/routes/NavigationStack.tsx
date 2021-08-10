@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Counter from '../pages/Counter/Counter';
-import Dogs from '../pages/Dogs/Dogs';
+import Counter from 'pages/Counter/Counter';
+import Dogs from 'pages/Dogs/Dogs';
 import { RootStackParamList, RouteNames } from './nav_types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();

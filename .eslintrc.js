@@ -32,4 +32,9 @@ module.exports = {
       { props: true, ignorePropertyModificationsFor: ['state'] },
     ],
   },
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
+  },
 };

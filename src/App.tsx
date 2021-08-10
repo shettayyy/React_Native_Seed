@@ -20,9 +20,9 @@ import {
   withStyles,
 } from '@ui-kitten/components';
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
-import theme from './theme/theme.json';
-import store from './store';
-import NavigationStack from './routes/NavigationStack';
+import theme from 'theme/theme.json';
+import store from 'store';
+import NavigationStack from 'routes/NavigationStack';
 
 const BaseApp = (props: ThemedComponentProps) => (
   <>
