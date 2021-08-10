@@ -20,6 +20,7 @@
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.0.3",
     "@reduxjs/toolkit": "^1.6.1",
+    "@sentry/react-native": "^2.6.2",
     "@ui-kitten/components": "^5.1.1",
     "@ui-kitten/eva-icons": "^5.1.1",
     "axios": "^0.21.1",

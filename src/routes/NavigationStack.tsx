@@ -1,11 +1,11 @@
 import React, { useCallback, useEffect } from 'react';
+import { Linking, Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SyncStorage from 'sync-storage';
 import Counter from 'pages/Counter/Counter';
 import Dogs from 'pages/Dogs/Dogs';
 import { NAV_KEYS, RootStackParamList, RouteNames } from './nav_types';
-import { Linking, Platform } from 'react-native';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -45,6 +45,12 @@ function NavigationStack() {
     } catch (error) {
       // TODO: Replace console.log with a logger service statement
       console.log('before app start issue', error);
+
+      // Sentry.captureException(err);
+
+      // OR
+
+      // Sentry.captureMessage("Something went wrong"); // custom messages
     } finally {
       setIsAppReady(true);
     }
