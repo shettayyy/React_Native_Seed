@@ -16,14 +16,17 @@ const counterSlice = createSlice({
     increment(state) {
       state.value += 1;
     },
+
     // decrement
     decrement(state) {
       state.value -= 1;
     },
+
     // reset
     reset(state) {
       state.value = initialState.value;
     },
+
     // increment by custom count
     addCount(state, action: PayloadAction<number>) {
       state.value += action.payload;

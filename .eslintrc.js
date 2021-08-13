@@ -24,6 +24,8 @@ module.exports = {
       {
         beforeLineComment: true,
         allowBlockStart: true,
+        allowObjectStart: true,
+        allowObjectEnd: true,
       },
     ],
     'no-console': 1,
