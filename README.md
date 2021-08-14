@@ -114,8 +114,8 @@ I have made sure you cannot push the code if there are any lint or [type related
 
 ## FAQ
 
-- Coming soon
+If you run into any issues, go through the [F.A.Q.](https://github.com/rahulshettysc/starcast/blob/main/FAQ.md) section. Amongst other things, this document contains information about common issues
 
 ## Support
 
-- Coming soon
+- If any information is missing in the [README](https://github.com/rashtay/React_Native_Seed/blob/main/README.md), want to raise a feature request or report any bug, please create a new [issue](https://github.com/rashtay/React_Native_Seed/issues) with appropriate labels.
