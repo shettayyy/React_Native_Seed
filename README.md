@@ -57,6 +57,7 @@ The boilerplate has the following tools and libraries:
 - [React Native AsyncStorage](https://github.com/react-native-community/async-storage) for storing data locally
 - [React Native Sync Storage](https://github.com/raphaelpor/sync-storage) for accessing AsyncStorage synchronously
 - [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/getting-started/what-is-ui-kitten#what-is-ui-kitten) as a UI library (something similar to Material UI for react). Refer the official documentation for more details
+- [React Native Bootsplash](https://github.com/zoontek/react-native-bootsplash) for setting the iOS/Android splash screen. It hasn't been set up as it would confuse the devs using the boilerplate for the 1st time. Please refer to the official documentation to learn how to set the splash screens
 - [Sentry](https://sentry.io/for/react-native/) for error and performance monitoring. You'd have to initialize it with your own project keys.
 
 ## Path resolver
