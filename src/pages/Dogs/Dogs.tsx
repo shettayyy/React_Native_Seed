@@ -131,4 +131,8 @@ const Dogs = ({ navigation }: NavProps[RouteNames.Dogs]) => {
   );
 };
 
+// Do this so that sentry can track the name of component names even if the code is minified
+// You can also ask metro config to not minify function names but that can increase the file size
+Dogs.displayName = 'Dogs';
+
 export default Dogs;
