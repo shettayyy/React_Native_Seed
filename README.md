@@ -92,7 +92,7 @@ The project comes preconfigured with `eslint` and `prettier` . I've added suppor
 
 The eslint, prettier and typescript configuration files have been updated to accomodate the additional plugins.
 
-I have made sure you cannot push the code if there are any lint or [type related issues](https://github.com/okonet/lint-staged/issues/468#issuecomment-605102567) issues.
+I have made sure you cannot push the code if there are any lint or [type related](https://github.com/okonet/lint-staged/issues/468#issuecomment-605102567) issues.
 
 ## Release History
 
