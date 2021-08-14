@@ -114,7 +114,7 @@ I have made sure you cannot push the code if there are any lint or [type related
 
 ## FAQ
 
-If you run into any issues, go through the [F.A.Q.](https://github.com/rahulshettysc/starcast/blob/main/FAQ.md) section. Amongst other things, this document contains information about common issues
+If you run into any issues, go through the [F.A.Q.](https://github.com/rashtay/React_Native_Seed/blob/main/FAQ.md) section. Amongst other things, this document contains information about common issues
 
 ## Support
 
