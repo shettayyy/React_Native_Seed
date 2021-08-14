@@ -119,7 +119,3 @@ I have made sure you cannot push the code if there are any lint or [type related
 ## Support
 
 - Coming soon
-
-## License
-
-- Coming soon
