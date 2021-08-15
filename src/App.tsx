@@ -19,10 +19,13 @@ import {
   ThemeType,
   withStyles,
 } from '@ui-kitten/components';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
 import theme from 'theme/theme.json';
 import store from 'store';
 import NavigationStack from 'routes/NavigationStack';
+
+Ionicons.loadFont();
 
 const BaseApp = (props: ThemedComponentProps) => (
   <>

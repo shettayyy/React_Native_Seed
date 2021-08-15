@@ -12,3 +12,14 @@ Reactotron.setAsyncStorageHandler(AsyncStorage) // AsyncStorage would either com
   .use(networking())
   .useReactNative() // add all built-in react native plugins
   .connect(); // let's connect!
+
+if (__DEV__) {
+  // eslint-disable-next-line no-console
+  console.tron = (...args) => {
+    Reactotron.display({
+      name: 'TRON',
+      value: args,
+      preview: args.length > 1 ? JSON.stringify(args) : args[0],
+    });
+  };
+}
