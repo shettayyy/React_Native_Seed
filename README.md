@@ -57,19 +57,22 @@ The boilerplate has the following tools and libraries:
 - [React Native AsyncStorage](https://github.com/react-native-community/async-storage) for storing data locally
 - [React Native Sync Storage](https://github.com/raphaelpor/sync-storage) for accessing AsyncStorage synchronously
 - [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/getting-started/what-is-ui-kitten#what-is-ui-kitten) as a UI library (something similar to Material UI for react). Refer the official documentation for more details
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/docs/) Gesture Handler aims to replace React Native's built in touch system called Gesture Responder System.
+- [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons) is perfect for buttons, logos and nav/tab bars. Easy to extend, style and integrate into your project.
 - [React Native Bootsplash](https://github.com/zoontek/react-native-bootsplash) for setting the iOS/Android splash screen. It hasn't been set up as it would confuse the devs using the boilerplate for the 1st time. Please refer to the official documentation to learn how to set the splash screens
-- [Sentry](https://sentry.io/for/react-native/) for error and performance monitoring. You'd have to initialize it with your own project keys.
+- [Sentry](https://sentry.io/for/react-native/) for error and performance monitoring. You'd have to initialize it with your own project keys. A utility tool has been added for capturing the exceptions
 
 ## Path resolver
 
 - Let's say you have `product.js` file in `src/components/product/` and you want to import `utils/string.js`.
-- So, instead of importing the file present in like `../../utils/string.js`, you can either import it like `@utils/string` or `utils/string`.
+- So, instead of importing the file present in like `../../utils/string.js`, you can import it like `utils/string`.
 - All the aliases can be found in `babel.config.js` and `tsconfig.json`.
 - If you want to add/remove aliases, make sure you add/remove to/from both the files
 
 ## Global types
 
-- We have a types folder placed in the root. You can add your globals types being used across the project and third party module declarations that currently doesn't have typescript support in this folder.
+- We have a `types` folder placed in the root.
+- You can add your globals types being used across the project and third party module declarations that currently doesn't have typescript support in this folder.
 
 ## Debugging
 
