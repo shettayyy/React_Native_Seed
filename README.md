@@ -4,7 +4,7 @@ This project is a [React Native](https://facebook.github.io/react-native/) boile
 
 The starter kit provides you with the modern tools for building apps, improves developer efficiency and tries the best to uphold consistent code quality. The architecture has been configured observing the common patterns adopted by the react native community.
 
-# Add Shields
+## Add Shields
 
 Coming soon - Shields/badges from shields.io
 
@@ -120,7 +120,7 @@ If you run into any issues, go through the [F.A.Q.](https://github.com/rashtay/R
 
 ## Support
 
-- If any information is missing in the [README](https://github.com/rashtay/React_Native_Seed/blob/main/README.md), want to raise a feature request or report any bug, please create a new [issue](https://github.com/rashtay/React_Native_Seed/issues) with appropriate labels.
+- If any information is missing from the [README](https://github.com/rashtay/React_Native_Seed/blob/main/README.md) file, want to raise a feature request or report any bug, please create a new [issue](https://github.com/rashtay/React_Native_Seed/issues) with appropriate labels.
 
 ## License
 
