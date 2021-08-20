@@ -4,11 +4,9 @@ This project is a [React Native](https://facebook.github.io/react-native/) boile
 
 The starter kit provides you with the modern tools for building apps, improves developer efficiency and tries the best to uphold consistent code quality. The architecture has been configured observing the common patterns adopted by the react native community.
 
-[comment]: <> ([![NPM Version][npm-image]][npm-url])
+# Add Shields
 
-[comment]: <> ([![Build Status][travis-image]][travis-url])
-
-[comment]: <> ([![Downloads Stats][npm-downloads]][npm-url])
+Coming soon - Shields/badges from shields.io
 
 ## Getting Started
 
