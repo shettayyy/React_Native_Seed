@@ -1,6 +1,6 @@
-# Contributing to Starcast
+# Contributing to React Native Seed
 
-Thank you for choosing React_Native_Seed and helping us be better at what we do. It is much appreciated. Read this guide carefully to avoid unnecessary work and disappointment for anyone involved.
+Thank you for choosing React Native Seed and helping us be better at what we do. It is much appreciated. Read this guide carefully to avoid unnecessary work and disappointment for anyone involved.
 
 ## Getting started
 
