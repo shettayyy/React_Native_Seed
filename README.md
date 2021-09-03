@@ -22,6 +22,7 @@ Coming soon - Shields/badges from shields.io
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
+- [Coming Soon](#coming-soon)
 
 ## Usage
 
@@ -31,7 +32,7 @@ Coming soon - Shields/badges from shields.io
   - Use it as a template by clicking `Use Template` green button which can be found on the top right corner next to the `Clone` dropdown on the repositories GitHub page
   - Clone the project - `git clone https://github.com/rashtay/react_native_beej.git <your project name>`. Remove the previous git history: - `rm -rf .git/`.
 - Add the npm dependencies by running - `yarn install`
-- Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name - `$ npx react-native-rename <newName>`. This isn't full proof. Search for `react_native_seed` in your project folder and replace it with name you passed to `react-native-rename` a.k.a `<newName>`.
+- Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name - `$ npx react-native-rename <newName>`. This isn't full proof. Search for `react_native_seed` in your project folder using VSCode's search found on the left hand toolbar and replace it with name you passed to `react-native-rename` a.k.a `<newName>`. Do check the _android/app/src/main/java_ folder. It would have the `react_native_seed` folder. Rename the folder to your project name.
 - Run `npx pod-install`. DO NOT run it before `yarn install`
 - Run `react-native run-ios`
 - Start the packager with `yarn start`to verify if everything is working
@@ -119,3 +120,10 @@ If you run into any issues, go through the [F.A.Q.](https://github.com/rashtay/R
 ## License
 
 For licensing information, go through [License](https://github.com/rashtay/React_Native_Seed/blob/main/LICENSE) file.
+
+## Coming Soon
+
+- Integrate https://github.com/DylanVann/react-native-fast-image
+- Enable Hermes
+- Add React Native Reanimated for animations
+- https://typedoc.org/guides/installation/
