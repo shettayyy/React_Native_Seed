@@ -50,7 +50,7 @@ The boilerplate has the following tools and libraries:
 - [Typescript](https://www.typescriptlang.org/) for type checking and then compiling the code to plain/vanilla JavaScript
 - [Husky](https://www.npmjs.com/package/husky) to add precommit and prepush hooks
 - [Lint Staged](https://www.npmjs.com/package/lint-staged) to lint the currently modified file
-- [Prettier](https://prettier.io/), [TSLint](<[https://palantir.github.io/tslint/](https://palantir.github.io/tslint/)>) and [ESlint](https://eslint.org/) preconfigured for React Native
+- [Prettier](https://prettier.io/)configured for formatting
 - [Reactotron](https://github.com/infinitered/reactotron) a desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
 - [React Native Dotenv](https://github.com/goatandsheep/react-native-dotenv) for setting environment variables
 - [React Native AsyncStorage](https://github.com/react-native-community/async-storage) for storing data locally
